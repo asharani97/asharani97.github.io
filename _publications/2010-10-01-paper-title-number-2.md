@@ -1,13 +1,13 @@
 ---
-title: "Activity-Based Early Autism Diagnosis Using a Multi-Dataset Supervised Contrastive Learning Approach"
+title: "Early-stage autism diagnosis using action videos and contrastive feature learning"
 collection: publications
 category: manuscripts
 permalink: /publication/2010-10-01-paper-title-number-2
 
-date: 2024-01-01
-venue: 'Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision'
+date: 2023-10
+venue: 'Multimedia Systems'
 
-paperurl: 'https://openaccess.thecvf.com/content/WACV2024/html/Rani_Activity-Based_Early_Autism_Diagnosis_Using_a_Multi-Dataset_Supervised_Contrastive_Learning_WACV_2024_paper.html'
+paperurl: 'https://link.springer.com/article/10.1007/s00530-023-01132-8'
 
 ---
 
