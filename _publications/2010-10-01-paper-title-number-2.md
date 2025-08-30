@@ -7,5 +7,3 @@ date: 2023-07-08
 venue: 'Multimedia Systems'
 paperurl: 'https://link.springer.com/article/10.1007/s00530-023-01132-8'
 ---
-
-
