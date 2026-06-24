@@ -6,14 +6,16 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+<div class="scholar-link">
+  <i class="ai ai-google-scholar ai-fw"></i>
+  Full list on <a href="{{ site.author.googlescholar }}" target="_blank">Google Scholar</a>.
+</div>
 {% endif %}
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
-  {% for category in site.publication_category  %}
+  {% for category in site.publication_category %}
     {% assign title_shown = false %}
     {% for post in site.publications reversed %}
       {% if post.category != category[0] %}
@@ -23,7 +25,19 @@ author_profile: true
         <h2>{{ category[1].title }}</h2><hr />
         {% assign title_shown = true %}
       {% endunless %}
-      {% include archive-single.html %}
+      <div class="pub-entry">
+        <div class="pub-title">
+          <a href="{{ post.url }}">{{ post.title }}</a>
+          {% if post.badge %}<span class="pub-badge">{{ post.badge }}</span>{% endif %}
+        </div>
+        <div class="pub-authors">{{ post.authors }}</div>
+        <div class="pub-venue"><em>{{ post.venue }}</em>{% if post.volume_issue %}, {{ post.volume_issue }}{% endif %}</div>
+        <div class="pub-links">
+          {% if post.paperurl %}<a href="{{ post.paperurl }}" target="_blank" class="pub-link">[Paper]</a>{% endif %}
+          {% if post.code %}<a href="{{ post.code }}" target="_blank" class="pub-link">[Code]</a>{% endif %}
+          {% if post.videourl %}<a href="{{ post.videourl }}" target="_blank" class="pub-link">[Video]</a>{% endif %}
+        </div>
+      </div>
     {% endfor %}
   {% endfor %}
 {% else %}
@@ -31,6 +45,3 @@ author_profile: true
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
-
-
-
