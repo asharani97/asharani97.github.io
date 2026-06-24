@@ -11,11 +11,11 @@ locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
 title                    : "Asha Rani"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://asharani97.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+name                     : &name "Asha Rani"
+description              : &description "Doctoral Researcher in Computer Science at IIT Jodhpur. Research in multimodal learning, multi-label classification, and machine learning for autism diagnosis."
+url                      : https://asharani97.github.io
+baseurl                  : ""
+repository               : "asharani97/asharani97.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -25,16 +25,16 @@ author:
   avatar           : "profile.png"
   name             : "Asha Rani"
   pronouns         : "she/her"  
-  bio              : "Research Scholar"
+  bio              : "Doctoral Researcher, CSE @ IIT Jodhpur"
   location         : "Jodhpur, India"
   employer         : "IIT Jodhpur"
-  uri              : # URL
-  email            : "rani.1@iitj.ac.in" 
+  uri              :
+  email            : "rani.1@iitj.ac.in"
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?hl=en&user=ofGBItgAAAAJ&view_op=list_works&gmla=AH8HC4xWC4uIEWjQUNVXB30dVYD41_5HEYJUY3BJDRy2Hm6d_XZh-SLk0DhNJrIY4tpIl9lI-6nqz1m4rB5o1OZM"
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=ofGBItgAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : #"http://orcid.org/yourorcidurl"
@@ -62,7 +62,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "asha-rani-0197"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -151,9 +151,9 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               : "google-analytics-4"
   google:
-    tracking_id          :
+    tracking_id          : ""   # paste your GA4 Measurement ID here (e.g. G-XXXXXXXXXX)
 
 
 # Reading Files
