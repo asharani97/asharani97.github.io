@@ -26,14 +26,6 @@ I am happy to discuss research collaborations, questions about my work, or poten
     Department of Computer Science and Engineering<br>
     Indian Institute of Technology Jodhpur<br>
     Jodhpur, Rajasthan 342030, India
-  </div>
-  <div class="contact-item">
-    <i class="fas fa-user-tie fa-fw"></i>
-    <strong>Advisor</strong><br>
-    <a href="https://yashaswi.github.io" target="_blank">Dr. Yashaswi Verma</a><br>
-    Associate Professor, IIT Jodhpur<br>
-    <a href="mailto:yashaswi@iitj.ac.in">yashaswi@iitj.ac.in</a>
-  </div>
 </div>
 
 ---
